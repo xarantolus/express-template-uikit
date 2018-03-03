@@ -1,3 +1,3 @@
-﻿# express-template-uikit
+﻿# $safeprojectname$
 
 

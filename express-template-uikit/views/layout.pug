@@ -1,7 +1,28 @@
 ﻿doctype html
 html
   head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/main.css')
+    title=title
+
+    link(rel='stylesheet' href='/css/uikit.min.css')
+    link(rel='stylesheet', href='/css/main.css')
+    
+    script(src='/js/uikit.min.js', type='text/javascript')
   body
-    block content
+    //- Header
+    div(uk-sticky='sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky')
+      nav(class='uk-navbar-container uk-navbar header', uk-navbar, uk-sticky)
+         //- Left
+         div(class='uk-navbar-left')
+           a(href='/', class='header-logo')
+             img(id='icon', src='/img/icon.svg', alt='Icon')
+         //- Middle
+         div(class='uk-navbar-center')
+            a(id='title', href='/') #{title}
+
+         //- Right
+         div(class='uk-navbar-right')
+           | Right
+
+    div(id='content')
+       block content
+    script(src='/js/browser.js', type='text/javascript')

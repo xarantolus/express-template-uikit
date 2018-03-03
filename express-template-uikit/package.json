@@ -1,5 +1,5 @@
 {
-  "name": "express-template-uikit",
+  "name": "$safeprojectname$",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -7,7 +7,7 @@
   },
   "description": "express-template-uikit",
   "author": {
-    "name": "aio"
+    "name": "$username$"
   },
   "main": "app.js",
   "dependencies": {
