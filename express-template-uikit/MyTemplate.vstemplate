@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>Node.js Express 4 Application (+ Uikit)</Name>
-    <Description>Blank Node.js Express 4 Application (+ Uikit)</Description>
+    <Name>Node.js Express 4 Application (+Uikit)</Name>
+    <Description>Blank Node.js Express 4 Application (+Uikit)</Description>
     <ProjectType>TypeScript</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
@@ -18,8 +18,33 @@
       <ProjectItem ReplaceParameters="true" TargetFileName="app.ts">app.ts</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="package.json">package.json</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="README.md">README.md</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="tsconfig.json">tsconfig.json</ProjectItem>
       <Folder Name="routes" TargetFolderName="routes">
         <ProjectItem ReplaceParameters="true" TargetFileName="index.ts">index.ts</ProjectItem>
+      </Folder>
+      <Folder Name="views" TargetFolderName="views">
+        <ProjectItem ReplaceParameters="false" TargetFileName="index.pug">index.pug</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="layout.pug">layout.pug</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="error.pug">error.pug</ProjectItem>
+      </Folder>
+      <Folder Name="public" TargetFolderName="public">
+        <Folder Name="css" TargetFolderName="css">
+          <ProjectItem ReplaceParameters="false" TargetFileName="main.css">main.css</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="uikit.css">uikit.css</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="uikit.min.css">uikit.min.css</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="uikit-rtl.css">uikit-rtl.css</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="uikit-rtl.min.css">uikit-rtl.min.css</ProjectItem>
+        </Folder>
+        <Folder Name="js" TargetFolderName="js">
+          <ProjectItem ReplaceParameters="false" TargetFileName="browser.js">browser.js</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="uikit.js">uikit.js</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="uikit.min.js">uikit.min.js</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="uikit-icons.js">uikit-icons.js</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="uikit-icons.min.js">uikit-icons.min.js</ProjectItem>
+        </Folder>
+        <Folder Name="img" TargetFolderName="img">
+          <ProjectItem ReplaceParameters="false" TargetFileName="icon.svg">icon.svg</ProjectItem>
+        </Folder>
       </Folder>
     </Project>
   </TemplateContent>
