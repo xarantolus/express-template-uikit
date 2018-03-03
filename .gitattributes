@@ -61,3 +61,11 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+
+# Uikit files
+express-template-uikit/public/css/* linguist-vendored
+express-template-uikit/public/js/* linguist-vendored
+
+# Own files
+Collect/public/js/browser.js linguist-vendored=false
+Collect/public/css/main.css linguist-vendored=false
