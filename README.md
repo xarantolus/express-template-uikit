@@ -3,7 +3,7 @@
 A template for an Express app in Node.js with Uikit for Visual Studio 2017 
 
 ## Install/Use
-To  use this template, go to [Releases](/releases/latest) and download `express-template-uikit_VERSION.zip`
+To  use this template, go to Releases and download `express-template-uikit_VERSION.zip`
 
 Now, move the zip file to the `TypeScript` directory in your `ProjectTemplates` directory. 
 
